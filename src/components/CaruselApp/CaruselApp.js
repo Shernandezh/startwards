@@ -10,13 +10,13 @@ function CaruselApp() {
         <Carousel fade>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 h-50"
           src={galeria.b1}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>DOOM ETERNAL</h3>
+          <p>Ambientada en un tiempo después de los eventos del juego de 2016, la historia sigue al Doom Slayer una vez más en una misión para terminar con el consumo de la Tierra por parte del Infierno y frustrar los planes del alienígena Khan Maykr para exterminar a la humanidad.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -27,8 +27,8 @@ function CaruselApp() {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>ELDEN RING</h3>
+          <p>La historia de Elden Ring es la del Sinluz, un exiliado que regresa a un marchito y enorme reino conocido como las Tierras Intermedias. Su propósito: reclamar el poder del Círculo de Elden. Una gesta que lo enfrentará a criaturas de pesadilla y un cruel destino.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -39,9 +39,9 @@ function CaruselApp() {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>RED DEAD REDEMPTION 2</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          La historia de Elden Ring es la del Sinluz, un exiliado que regresa a un marchito y enorme reino conocido como las Tierras Intermedias. Su propósito: reclamar el poder del Círculo de Elden. Una gesta que lo enfrentará a criaturas de pesadilla y un cruel destino
           </p>
         </Carousel.Caption>
       </Carousel.Item>
