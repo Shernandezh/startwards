@@ -1,0 +1,8 @@
+.grupo{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    margin: 1rem 0;
+
+}

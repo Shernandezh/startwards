@@ -1,9 +1,12 @@
-import React from 'react'
+import "../assets/Add.css"
+import React from 'react' 
 
-export const FooterApp = () => {
+function FooterApp() {
   return (
-    <div>Hola mundo</div>
-    
-    
+    <div className="footer">
+         © CopyRigths Game-Nights
+    </div>
   )
 }
+
+export default FooterApp

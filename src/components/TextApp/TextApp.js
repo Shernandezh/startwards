@@ -3,12 +3,10 @@ import React from 'react'
 function TextApp() {
   return (
     <div>
-
-        <h1 className='tite'>¡Compra Tus Juegos Aqui!</h1>
+        <h1 className='tite'>Star Wars</h1>
         <p className='parr'>
-        ¿Buscas comprar juegos baratos? Si estás pensando en comprar juegos en formato digital para tu  PC, Xbox o PlayStation con precios espetacualres aqui está tu lugar. En Game Nights Aprovecha todo lo que tenemos a disposición.    
+        Star Wars, conocida también en español como La guerra de las galaxias, ​​​ es una franquicia y universo compartido compuesta primordialmente de una serie de películas concebidas por el cineasta estadounidense George Lucas en la década de 1970.   
         </p>
-
     </div>
   )
 }

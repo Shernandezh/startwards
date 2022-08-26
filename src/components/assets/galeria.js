@@ -1,25 +1,19 @@
-import logo from './img/Moon.jpg';
-import Doom from './img/DoomEternal.jpg';
-import EldenR from './img/EldenRing.jpg';
-import ReadDead from './img/RedDeadII.jpg';
-import Portal2 from './img/BannerPortal2.jpg'
-import Gta from './img/BannerGta.jpg'
-import Zelda from './img/BannerZelda.jpg'
-import Mario from './img/BannerMario.jpg'
-import Sekiro from './img/BannerSekiro.jpg'
-import God from './img/BannerGod.jpg'
-import Uncharted from './img/BannerUncharted.jpg'
+import logo from './img/logo.jpg'
+import img1 from './img/img1.jpg'
+import img2 from './img/img2.jpg'
+import img3 from './img/img3.jpg'
+import imperiogalactico from './img/imperio.jpg'
+import Resistencia from './img/Resistencia.jpg'
+import jedi from './img/jedi.jpg'
+import Separatis from './img/Separatis.jpg'
 
 export default {
-    "icon":logo,
-    "b1":Doom,
-    "b2":EldenR,
-    "b3":ReadDead,
-    "c1":Portal2,
-    "c2":Gta,
-    "c3":Zelda,
-    "c4":Mario,
-    "c5":Sekiro,
-    "c6":God,
-    "c7":Uncharted,
+  "logo":logo,
+  "slider1":img1,
+  "Slider2":img2,
+  "Slider3":img3,
+  "imperio":imperiogalactico,
+  "Resistencia":Resistencia,
+  "jedi":jedi,
+  "Separatis":Separatis,
 }

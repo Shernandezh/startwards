@@ -2,30 +2,34 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import galeria from '../assets/galeria';
 import "../assets/Add.css"
+import {Link} from 'react-router-dom'
 
 const NavbarApp = () => {
   return (
     <div>
-      <Navbar className='color' variant="dark">
+      <Navbar className="color">
         <Container>
-          <Navbar.Brand href="#home">
-            <img
-              alt=""
-              src={galeria.icon}
-              width="75"
-              height="70"
-              className="d-inline-block align-center"
+        <img
+              src={galeria.logo}
+              width="80"
+              height="75"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
             />{' '}
-Game Nights
-          </Navbar.Brand>
+          <Nav  className="me-auto">
+            <Nav.Link className='texto-nav' style={{color:'white'}}><Link to='/'>Home</Link></Nav.Link>
+            <Nav.Link className='texto-nav' style={{color:'white'}}><Link to='/personajes'>Personajes</Link></Nav.Link>
+            <Nav.Link className='texto-nav' style={{color:'white'}}><Link to='/planetas'>Planetas</Link></Nav.Link>
+          </Nav>
         </Container>
       </Navbar>
 
     </div>
   )
 }
+
+
 
 export default NavbarApp

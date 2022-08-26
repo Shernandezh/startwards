@@ -1,18 +1,18 @@
 import './App.css';
-import NavbarApp from './components/NavbarApp/NavbarApp'
-import CaruselApp from './components/CaruselApp/CaruselApp'
-import TextApp  from './components/TextApp/TextApp';
-import CardsApp from './components/CardsApp/CardsApp';
+import Home from './pages/Home.js';
+import  Personajes  from './pages/Personajes';
+import  Planetas  from './pages/Planetas';
+import {Routes,Route} from 'react-router-dom';
+import personajedeta from './pages/personajedeta'
 
 function App() {
   return (
-    
-    <div className="App">
-      <NavbarApp/>
-      <CaruselApp/>
-      <TextApp/>
-      <CardsApp/>
-    </div>
+    <Routes>
+      <Route path = '/' element = {<Home/>}></Route>
+      <Route path = '/personajes' element = {<Personajes/>}></Route>
+      <Route path = '/planetas' element = {<Planetas/>}></Route>
+      <Route path = '/personajedeta' element = {<personajedeta/>}></Route>
+    </Routes>
   );
 }
   
